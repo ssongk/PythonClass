@@ -64,8 +64,8 @@ def print_max(a,b,c):
             print("max는",b)
         elif(b<c):
             print("max는",c)
-A = input("첫 번쨰 수자 입력>>")
-B = input("두 번쨰 수자 입력>>")
-C = input("세 번쨰 수자 입력>>")
+A = input("첫 번쨰 숫자 입력>>")
+B = input("두 번쨰 숫자 입력>>")
+C = input("세 번쨰 숫자 입력>>")
 print_max(A,B,C)
 print("-----7번 끝-----")

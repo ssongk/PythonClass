@@ -18,8 +18,7 @@ def compareNumber(userNumCopy,comNumCopy):
 
 strike = 0
 comNum = 0
-toggle = 0
-while(toggle==0):
+while(1):
     for k in range(3):
         comNum += random.randint(1,9) * 10 ** k
     print("답 :",comNum)
@@ -27,7 +26,7 @@ while(toggle==0):
     if(comNum[0]!=comNum[1]):
         if(comNum[0]!=comNum[2]):
             if(comNum[1]!=comNum[2]):
-                toggle = 1
+                break
     else :
         continue
 
