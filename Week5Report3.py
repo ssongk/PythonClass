@@ -23,10 +23,8 @@ while(1):
         comNum += random.randint(1,9) * 10 ** k
     print("답 :",comNum)
     comNum = str(comNum)
-    if(comNum[0]!=comNum[1]):
-        if(comNum[0]!=comNum[2]):
-            if(comNum[1]!=comNum[2]):
-                break
+    if(comNum[0]!=comNum[1] and comNum[0]!=comNum[2] and comNum[1]!=comNum[2]):
+        break
     else :
         continue
 
