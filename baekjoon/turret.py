@@ -1,4 +1,4 @@
-# 백준 1002번 문제
+# 백준 1002번 터렛(원의 교점 구하기)
 import math
 t=int(input())
 for i in range(t):
